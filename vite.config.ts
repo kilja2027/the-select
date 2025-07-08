@@ -22,8 +22,8 @@ export default defineConfig(({ mode }) => {
           }
         }
       },
-+     server: {
-+       historyApiFallback: true
-+     }
+      server: {
+        historyApiFallback: true
+      }
     };
 });
