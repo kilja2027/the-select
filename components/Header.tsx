@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ onNavClick }) => {
             onClick={() => handleLinkClick('home')}
             className="flex items-center gap-2 cursor-pointer"
           >
-            <img src={`${import.meta.env.BASE_URL}photo/logo.png`} alt="The Select Logo" style={{height:100, width:'auto'}} />
+            <img src={`${import.meta.env.BASE_URL}photo/logo2.png`} alt="The Select Logo" style={{height:100, width:'auto'}} />
           </div>
           
           {/* Desktop Navigation */}
